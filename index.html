@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>example</title>
+</head>
+<body>
+  <form id="loginform">
+    <label>
+      user
+      <input type="text" id="user">
+    </label>
+    <label>
+      password
+      <input type="password" id="password">
+    </label>
+    <input type="submit" value="Login">
+  </form>
+  <button type="button" id="write">
+    test write
+  </button>
+  <div id="status">
+    You’re not logged in
+  </div>
+  <script src="node_modules/pouchdb/dist/pouchdb.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

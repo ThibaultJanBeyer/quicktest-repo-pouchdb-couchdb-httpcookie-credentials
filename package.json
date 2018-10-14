@@ -1,0 +1,22 @@
+{
+  "name": "quicktest-repo-pouchdb-couchdb-httpcookie-credentials",
+  "version": "1.0.0",
+  "description": "This repo is an example project for a pouchdb issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibaultJanBeyer/quicktest-repo-pouchdb-couchdb-httpcookie-credentials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThibaultJanBeyer/quicktest-repo-pouchdb-couchdb-httpcookie-credentials/issues"
+  },
+  "homepage": "https://github.com/ThibaultJanBeyer/quicktest-repo-pouchdb-couchdb-httpcookie-credentials#readme",
+  "dependencies": {
+    "pouchdb": "^7.0.0"
+  }
+}
